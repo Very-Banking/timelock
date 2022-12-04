@@ -27,6 +27,13 @@ From the ERC20 token contract, use the `transfer` function to transfer <b>$VB</b
 ### 8. Finalize
 Once all allocations have been made and the <b>$VB</b> tokens have been transferred into the timelock contract, the owner can call the timelock contract's `finalizeAllIncomingDeposits` function. This makes the contract completely non-custodial, whereby the contract owner has no ability to alter token amounts gooing forward and so forth. The operation of the timelock contract is purely based on the math in the `transferTimeLockedTokensAfterTimePeriod` function from this point forward.
 
+## Testnet
+`vb.sol`
+https://goerli.etherscan.io/address/0xcfe4eb08e33272d98cb31e37a7be78d5c1b740c1
+
+`timelock.sol`
+https://goerli.etherscan.io/address/0xf6d74f662120487990Af73a522e0B46f88792f18
+
 ## Thanks
 https://github.com/second-state
 
